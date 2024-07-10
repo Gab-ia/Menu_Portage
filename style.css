@@ -1,0 +1,52 @@
+body{margin:0;}
+
+/*bandeau herbe + bandeau avec titre et descritpion */
+
+header{
+position:relative;
+}
+.bandeau{
+background-image: url(Images/close-up-green-grass.jpg);
+background-size: 300px 180px;
+display:flex;
+align-items:center;
+margin: 0;
+}
+.logo{
+width: auto;
+height: 45px;
+padding:50px 30px 50px 50px;
+}
+.header_h {
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+}
+span.menu_couleur{color:#95c11f;}
+.header_h1{
+padding: 40px 0  0;
+font-size: 50px;
+color:#006731; 
+}
+.header_h2{
+font-size: 35px;
+color: seagreen;
+padding-top: 10px;
+}
+
+/*texte de presentation + logos*/
+.presentation{
+display:flex;
+justify-content: center;
+align-items:center;
+}
+.description1 {
+
+aspect-ratio:1/1
+}
+.presentationItem {
+display:flex;
+width:calc(100%/3);
+height: 100px;
+aspect-ratio:1/1;
+}
